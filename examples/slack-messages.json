@@ -1,0 +1,21 @@
+[
+  {
+    "user": "Avery",
+    "text": "Published the pricing page. Need approval on the conversion copy before email goes out.",
+    "ts": "2026-05-06T10:15:00-04:00",
+    "channel": "company-chat"
+  },
+  {
+    "user": "Jordan",
+    "text": "Blocked on customer migration because ownership is unclear.",
+    "ts": "2026-05-06T11:30:00-04:00",
+    "channel": "company-chat"
+  },
+  {
+    "user": "Morgan",
+    "text": "100 trial signups came from the launch post. Need next step owner.",
+    "ts": "2026-05-06T12:00:00-04:00",
+    "channel": "company-chat"
+  }
+]
+
