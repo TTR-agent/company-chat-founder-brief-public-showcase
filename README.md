@@ -1,6 +1,6 @@
 # Company Chat Founder Brief - Public Showcase
 
-This repo is a sanitized public showcase of a company-chat operating layer. It takes Slack-like team updates, extracts what each person appears to be working on, identifies blockers and commercial relevance, and renders founder-ready daily briefs and weekly meeting talking points in a consistent founder voice.
+This repo is a public showcase of a company-chat operating layer. It takes Slack-like team updates, extracts what each person appears to be working on, identifies blockers and commercial relevance, and renders founder-ready daily briefs and weekly meeting talking points in a consistent founder voice.
 
 The purpose is simple: help a founder understand what is happening across the team without reading every chat message or walking into meetings cold.
 
@@ -10,10 +10,10 @@ The purpose is simple: help a founder understand what is happening across the te
 - Evidence-first team update analysis.
 - Per-person workstream, blocker, and commercial-read extraction.
 - Visibility gaps when the team has not posted enough evidence.
-- Founder voice grounding, similar to a public-safe `soul.md`.
+- Founder voice grounding, similar to a reusable `soul.md`.
 - Daily founder brief generation.
 - Weekly meeting talking-point generation.
-- Public-safe architecture with fake data only.
+- Reference architecture with fake data only.
 
 ## Why This Matters
 
@@ -64,4 +64,3 @@ python3 -m src.company_chat.cli --mode weekly
 ## Public Safety
 
 This repo contains no private Slack data, employee records, API keys, tokens, webhook URLs, or real channel IDs. All sample messages and names are fake.
-
